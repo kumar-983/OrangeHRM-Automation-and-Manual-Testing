@@ -33,35 +33,35 @@ The project was developed to gain hands-on experience in software testing tools 
 ## Project Structure
 
 ```
-OrangeHRM-Login-Testing/
+ORANGEHRM SOFTWARE TESTING
 │
-├── README.md
+├── Bug
+│   ├── Bug_001_Lowercase_Username_Report.docx
+│   ├── Bug_002_504_Gateway_Error.docx
+│   ├── Bug_003_Browser_back_button_after_Report.docx
+│   ├── Bug_004_No_account_lockout_or_Report.docx
+│   ├── Bug_005_Autocomplete_is_not_disabled_Report.docx
+│   └── Bug_006_Concurrent_login_sessions_from_Report.docx
 │
-├── Manual Testing/
-│   ├── OrangeHRM Test.xlsx
-│   ├── OrangeHRM Testing Report.pdf
-│   ├── Manual Testing Guide.txt
-│   ├── login_page.png
-│   ├── successful_login.png
-│   └── Invalid_login.png
-│
-├── Selenium Automation/
-│   ├── automation.py
-│   ├── code_1.png
-│   ├── code_2.png
+├── Develop and Run Selenium Automation
 │   ├── automation_1.png
 │   ├── automation_2.png
-│   ├── output_1.png
-│   └── output_2.png
+│   ├── automation.py
+│   └── selenium_code_output.docx
 │
-├── Bug Reports/
-│   ├── Bug_001_Lowercase_Username_Report.docx
-│   └── Bug_001.png
+├── Execute Manual Testing
+│   ├── Invalid_login.png
+│   ├── login_page.png
+│   ├── Manual Testing Guide.txt
+│   ├── OrangeHRM TESTING REPORT.docx
+│   ├── OrangeHRM_Testing.xlsx
+│   └── successful_login.png
 │
-├── Jira/
-    ├── Jira_Dashboard.png
-    ├── Jira_List.png
-```
+├── Jira
+│   ├── Jira_Dashboard.png
+│   └── Jira_List.png
+│
+└── README.md
 
 ---
 
