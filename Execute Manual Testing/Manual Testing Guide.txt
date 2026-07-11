@@ -1,0 +1,31 @@
+WEBSITE : 
+MOBILE APP :
+
+MANUAL :
+AUTOMATION :
+
+JIRA TOOLS:
+
+SM / TL :
+DESIGNER :
+TESTER :
+
+SRS :
+BRS :
+FRS :
+
+PROJECT NAME : OrangeHRM
+MODULE : Login Page
+Date : 09/06/26
+BY : TL
+SPRINT DATE :
+
+DECISION TABLE : Total number of Test Cases = 9
+
+TEST SCENARIO : TASK :
+LOGIN PAGE : 
+
+1 : Serial Number
+2 : Test Scenario Title | Name | Description
+3 : Reference
+4 : Total number of Test Cases 
