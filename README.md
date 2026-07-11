@@ -1,148 +1,162 @@
-# OrangeHRM Login Testing Project
+# OrangeHRM Software Testing Project
 
-## Overview
-
-This project demonstrates Manual Testing and Selenium Automation Testing of the OrangeHRM Login module. It covers the complete Software Testing Life Cycle (STLC) for the login functionality, including test planning, test case design, execution, defect reporting, and automation.
-
-The project was developed to gain hands-on experience in software testing tools and practices used in the QA industry.
+## Project Overview
+This project demonstrates an end-to-end Software Testing process for the OrangeHRM application. It covers Manual Testing, Selenium Automation Testing, Defect Reporting using Jira, and follows the Agile Scrum methodology. The objective is to validate the application's functionality, identify defects, automate test cases, and document the complete testing lifecycle.
 
 ---
 
-## Objectives
-
-- Perform Manual Testing of the OrangeHRM Login module.
-- Design and execute login test cases.
-- Identify and report defects using Jira.
-- Automate login scenarios using Selenium WebDriver with Python.
-- Compare expected and actual results during automation execution.
+## Project Objectives
+- Perform comprehensive Manual Testing on the OrangeHRM application.
+- Design and execute professional test cases.
+- Identify, document, and report defects.
+- Automate test cases using Selenium with Python.
+- Track defects using Jira.
+- Follow Agile Scrum testing practices.
 
 ---
 
 ## Tools & Technologies
-
 - Python
 - Selenium WebDriver
+- PyTest
+- Google Chrome
 - ChromeDriver
-- Visual Studio Code
 - Jira
 - Microsoft Excel
-- Google Chrome
+- Microsoft Word
+- Git
+- GitHub
+- VS Code
+
+---
+
+## Testing Types Covered
+- Functional Testing
+- UI Testing
+- Positive Testing
+- Negative Testing
+- Validation Testing
+- Boundary Testing
+- Session Management Testing
+- Security Testing
+- Regression Testing
+- Smoke Testing
+
+---
+
+## Test Execution Summary
+
+| Metric | Count |
+|---------|------:|
+| Test Scenarios | 32 |
+| Manual Test Cases | 32 |
+| Automated Test Cases | 32 |
+| Passed Test Cases | 26 |
+| Failed Test Cases | 6 |
+| Bugs Reported | 6 |
+| Jira Defects | 6 |
+
+---
+
+## Defects Reported
+
+- Bug 001 – Username accepts lowercase credentials
+- Bug 002 – 504 Gateway Timeout on Forgot Password
+- Bug 003 – Browser Back button allows access after logout
+- Bug 004 – No account lockout after multiple invalid login attempts
+- Bug 005 – Username autocomplete is not disabled
+- Bug 006 – Multiple concurrent login sessions allowed
 
 ---
 
 ## Project Structure
 
 ```
-ORANGEHRM SOFTWARE TESTING
+OrangeHRM Software Testing
 │
 ├── Bug
 │   ├── Bug_001_Lowercase_Username_Report.docx
 │   ├── Bug_002_504_Gateway_Error.docx
-│   ├── Bug_003_Browser_back_button_after_Report.docx
-│   ├── Bug_004_No_account_lockout_or_Report.docx
-│   ├── Bug_005_Autocomplete_is_not_disabled_Report.docx
-│   └── Bug_006_Concurrent_login_sessions_from_Report.docx
+│   ├── Bug_003_Browser_Back_Button_Report.docx
+│   ├── Bug_004_No_Account_Lockout_Report.docx
+│   ├── Bug_005_Autocomplete_Not_Disabled_Report.docx
+│   └── Bug_006_Concurrent_Login_Sessions_Report.docx
 │
 ├── Develop and Run Selenium Automation
+│   ├── automation.py
 │   ├── automation_1.png
 │   ├── automation_2.png
-│   ├── automation.py
 │   └── selenium_code_output.docx
 │
 ├── Execute Manual Testing
-│   ├── Invalid_login.png
-│   ├── login_page.png
-│   ├── Manual Testing Guide.txt
-│   ├── OrangeHRM TESTING REPORT.docx
 │   ├── OrangeHRM_Testing.xlsx
-│   └── successful_login.png
+│   ├── OrangeHRM_TESTING_REPORT.docx
+│   ├── Manual Testing Guide.txt
+│   ├── login_page.png
+│   ├── successful_login.png
+│   └── Invalid_login.png
 │
 ├── Jira
 │   ├── Jira_Dashboard.png
 │   └── Jira_List.png
 │
 └── README.md
-
----
-
-## Manual Testing
-
-The login module was tested using different input combinations.
-
-### Test Scenarios
-
-- Valid username and password
-- Invalid username
-- Invalid password
-- Invalid username and password
-- Blank username
-- Blank password
-- Blank username and password
-- Username case sensitivity validation
-
-**Total Test Cases:** 12
+```
 
 ---
 
 ## Selenium Automation
 
-The automation script performs the following steps:
+The Selenium Automation suite automates all 32 test cases developed during manual testing.
 
-- Launch Chrome Browser
-- Open OrangeHRM Login Page
-- Execute all login test cases
-- Compare Expected vs Actual Results
-- Display PASS/FAIL status
-- Log out after successful login
-- Detect application behavior differences
-
----
-
-## Bug Report
-
-### Bug ID
-**BUG_001**
-
-### Title
-Username field accepts lowercase username (`admin`) and allows successful login.
-
-### Expected Result
-The application should reject login if username validation is case-sensitive.
-
-### Actual Result
-The application allows successful login using the lowercase username.
-
-The defect has been documented with screenshots and reported in Jira.
+### Automated Modules
+- Login
+- Logout
+- Forgot Password
+- Input Validation
+- Session Validation
+- Navigation
+- UI Verification
 
 ---
 
-## Jira
+## Defect Management
 
-This project includes:
+All identified defects were reported and tracked using Jira.
 
-- Task Creation
-- Bug Reporting
-- Defect Tracking
-- Attachments
-- Screenshots
-- Test Evidence
+Activities performed:
+- Bug creation
+- Severity assignment
+- Priority assignment
+- Status tracking
+- Defect documentation
+
+---
+
+## Agile Scrum Methodology
+
+This project follows Agile Scrum practices:
+- Requirement Analysis
+- Sprint Planning
+- Test Case Design
+- Test Execution
+- Defect Reporting
+- Regression Testing
+- Sprint Review
 
 ---
 
 ## Learning Outcomes
 
-Through this project, I gained practical experience in:
-
+Through this project, I gained hands-on experience in:
 - Manual Testing
-- Test Case Design
-- Decision Table Testing
-- Bug Reporting
-- Jira Workflow
-- Selenium WebDriver
+- Selenium Automation
 - Python Automation
-- Explicit Waits
-- Exception Handling
-- Test Execution Reporting
+- Test Case Design
+- Bug Reporting
+- Jira Defect Tracking
+- Agile Scrum Workflow
+- Git & GitHub Version Control
 
 ---
 
@@ -150,6 +164,6 @@ Through this project, I gained practical experience in:
 
 **Kumar Suraj**
 
-B.Tech Computer Science & Engineering
+GitHub: https://github.com/kumar-983
 
-Aspiring Software QA Engineer | Manual Testing | Selenium Automation | Python | Jira
+LinkedIn: https://www.linkedin.com/in/kumar-suraj-204a5b269
