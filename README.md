@@ -149,6 +149,28 @@ This project follows Agile Scrum practices:
 
 ---
 
+## AI-Assisted Defect Reporting Workflow
+
+```text
+OrangeHRM Application
+        │
+        ▼
+ Manual Testing
+        │
+        ▼
+ Selenium Automation
+        │
+        ▼
+ Failed Test / Defect
+        │
+        ▼
+ Claude AI
+        │
+        ▼
+ Jira Bug Report
+
+---
+
 ## Learning Outcomes
 
 Through this project, I gained hands-on experience in:
