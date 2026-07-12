@@ -22,6 +22,7 @@ This project demonstrates an end-to-end Software Testing process for the OrangeH
 - Google Chrome
 - ChromeDriver
 - Jira
+- Claude (AI-assisted Jira defect logging)
 - Microsoft Excel
 - Microsoft Word
 - Git
@@ -124,6 +125,8 @@ The Selenium Automation suite automates all 32 test cases developed during manua
 
 All identified defects were reported and tracked using Jira.
 
+Defects were manually identified through testing, then logged to Jira using a Claude + Jira (MCP) integration to speed up documentation — each entry was manually reviewed for accuracy.
+
 Activities performed:
 - Bug creation
 - Severity assignment
@@ -155,6 +158,7 @@ Through this project, I gained hands-on experience in:
 - Test Case Design
 - Bug Reporting
 - Jira Defect Tracking
+- AI-assisted workflow integration (Claude + Jira via MCP)
 - Agile Scrum Workflow
 - Git & GitHub Version Control
 
