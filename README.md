@@ -51,7 +51,7 @@ This project demonstrates an end-to-end Software Testing process for the OrangeH
 |---------|------:|
 | Test Scenarios | 32 |
 | Manual Test Cases | 32 |
-| Automated Test Cases | 32 |
+| Automated Test Cases | 18 |
 | Passed Test Cases | 26 |
 | Failed Test Cases | 6 |
 | Bugs Reported | 6 |
